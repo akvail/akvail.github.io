@@ -1,0 +1,53 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 25%;
+    width: 50%;
+}
+
+a {
+    color: crimson;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+    margin: 20px 0;
+}
+
+img {
+    margin: 0px 50px;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#description {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 90%;
+}
+
+#image {
+    float: right;
+}
+
+#pubs {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 90%;
+}
+
+#links {
+    text-align: center;
+}
+
+@media only screen and (max-device-width: 1080px) {
+  /* define mobile specific styles come here */
+    body {
+        font-family: 'Roboto Mono', monospace;
+        margin-left: 10%;
+        width: 80%;
+    }
+}
