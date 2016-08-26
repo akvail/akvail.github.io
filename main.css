@@ -2,11 +2,12 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 60%;
     letter-spacing: 1px;
 }
 
 h1 {
+    margin-top: 5%;
     font-size: 150%;
 }
 
@@ -23,15 +24,12 @@ li {
     margin: 20px 0;
 }
 
-img {
-    margin: 0px 50px;
-    border-width: 3px;
-    border-style: solid;
-}
-
 table.headline {
     line-height: 0.5;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
+    /*margin-left: -40%;*/
 }
 
 td {
@@ -52,9 +50,11 @@ td.headline_contact p {
 }
 
 #description {
+    margin-left: auto;
+    margin-right: auto;
     text-align: justify;
     text-justify: inter-word;
-    /*font-size: 90%;*/
+    width: 50%;
 }
 
 #image {
