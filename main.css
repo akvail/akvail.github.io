@@ -49,16 +49,16 @@ td.headline_contact p {
     margin: 10%;
 }
 
+hr {
+    margin: 40px;
+}
+
 #description {
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
     text-justify: inter-word;
     width: 50%;
-}
-
-#image {
-    float: right;
 }
 
 #pubs {
