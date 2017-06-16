@@ -1,81 +1,53 @@
 body {
     font-family: 'Roboto', sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
+    padding-top: 50px;
     letter-spacing: 1px;
+    font-weight: 500;
 }
-
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.tight {
+    line-height: 1;
+}
+[class*="col-"] {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+h1,h2,h3 {
+    font-weight: bold;
+}
 h1 {
-    margin-top: 5%;
     font-size: 150%;
 }
-
+h3 {
+    font-size: 125%;
+}
 a {
     color: crimson;
     text-decoration: none;
 }
-
-a:hover {
-    text-decoration: underline;
+hr {
+    width: 75%;
+    border-color: grey;
 }
-
-li {
-    margin: 20px 0;
-}
-
-table.headline {
-    line-height: 0.5;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    /*margin-left: -40%;*/
-}
-
-td {
+.headline {
     text-align: center;
+    vertical-align: center;
+    font-size: 115%;
 }
-
-td.headline_contact {
+.headline_contact a {
+    color: black;
     font-size: 200%;
 }
-
-td.headline_contact a {
-    color: black;
-    text-decoration: none;
+.headline_info {
+    font-weight: bold;
 }
-
-td.headline_contact p {
-    margin: 10%;
+.description {
+    font-size: 115%;
 }
-
-hr {
-    margin: 40px;
-}
-
-#description {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: justify;
-    text-justify: inter-word;
-    width: 50%;
-}
-
-#pubs {
-    text-align: justify;
-    text-justify: inter-word;
-    font-size: 90%;
-}
-
-#links {
-    text-align: center;
-}
-
-@media only screen and (max-device-width: 1080px) {
-  /* define mobile specific styles come here */
-    body {
-        font-family: 'Open Sans', sans-serif;
-        margin-left: 10%;
-        width: 80%;
-    }
+.publist {
+    list-style-type: none;
 }
