@@ -51,3 +51,6 @@ hr {
 .publist {
     list-style-type: none;
 }
+.publist li {
+    margin: 0 0 20px;
+}
